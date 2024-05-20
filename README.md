@@ -13,8 +13,8 @@ The program allows the user to solve Sudoku of the desired difficulty level. On 
 Below is a basic representation of how the Sudoku game works:
 
 <div style="display: flex;">
-    <img src="assets/images/sudoku_mainpage.png" alt="Sudoku Game 1" style="width: 45%;">
-    <img src="assets/images/sudoku_page_2.png" alt="Sudoku Game 2" style="width: 45%;">
+    <img src="assets/sudoku_mainpage.png" alt="Sudoku Game 1" style="width: 45%;">
+    <img src="assets/sudoku_page_2.png" alt="Sudoku Game 2" style="width: 45%;">
 </div>
 
 ## Table of Contents
