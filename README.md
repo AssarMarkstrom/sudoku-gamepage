@@ -6,56 +6,24 @@ This is a simple web-based Sudoku game created as a final project for an introdu
 
 The Sudoku Game project aims to create an interactive and user-friendly web application for playing Sudoku. This project demonstrates the use of HTML, CSS, and JavaScript to build a complete and functional game, showcasing web development skills acquired during the course.
 
+The program allows the user to solve Sudoku of the desired difficulty level. On the “home page” the user can select the difficulty level of the Sudoku. In addition to this the user can read a little briefly about the rules of the game, the history of the game, game tips or some trivia about the creator of the page. Once the user has selected the difficulty level and pressed the start button, the user is redirected to a new web page where a sudoku board is presented. The generation of the sudoku board is directly linked to the chosen difficulty level. On the the “game page” itself, there are two additional buttons. One takes the user directly back to the “home” page and the other button, “reload”, generates a new sudoku board of the same difficulty level. The user solves the sudoku by pressing on an empty box and typing a correct digit. If the wrong number is entered, the user is warned and the box remains empty.
+
+### Basic Representation
+
+Below is a basic representation of how the Sudoku game works:
+
+<div style="display: flex;">
+    <img src="assets/images/sudoku_mainpage.png" alt="Sudoku Game 1" style="width: 45%;">
+    <img src="assets/images/sudoku_page_2.png" alt="Sudoku Game 2" style="width: 45%;">
+</div>
+
 ## Table of Contents
 
 - [Summary](#summary)
-- [Preparation](#preparation)
-- [Form](#form)
-- [Function](#function)
 - [Installation](#installation)
 - [Usage](#usage)
 - [File Overview](#file-overview)
 - [License](#license)
-
-## Preparation
-
-### Project Planning
-
-The planning phase involved outlining the core features and functionalities of the Sudoku game. The primary focus was on creating a clean and responsive design, intuitive user interactions, and implementing the game logic in JavaScript.
-
-### Technology Stack
-
-- **HTML**: Structure of the web pages.
-- **CSS**: Styling and layout of the game.
-- **JavaScript**: Game logic and interactivity.
-
-### Design Considerations
-
-The design aimed to provide a clear and engaging user interface, with a focus on accessibility and ease of use.
-
-## Form
-
-### User Interface
-
-The user interface was designed to be simple and clean, allowing users to focus on the game.
-
-### Styling
-
-Custom fonts and styles were used to enhance the visual appeal of the game. The styling was done using both CSS and inline styles within the HTML.
-
-## Function
-
-### Game Logic
-
-The game logic was implemented in JavaScript, including:
-
-- Generation of a valid Sudoku puzzle, for the selected difficulty level.
-- Checking user inputs for correctness.
-- Providing feedback on errors.
-
-### Interaction
-
-Users can interact with the game by clicking on cells to enter numbers. The game checks for mistakes and provides immediate feedback.
 
 ## Installation
 
@@ -77,7 +45,8 @@ Open `index.html` in a web browser to start playing the game. Ensure that all as
 
 ## File Overview
 
-- **index.html**: The main HTML file.
+- **index.html**: The homepage HTML file.
+- **solveSudoku.html**: The gamepage HTML file.
 - **css/**: Contains all CSS files.
   - `mainStyle.css`: Main stylesheet for general styling.
   - `sudokuStyle.css`: Styles specific to the Sudoku board.
@@ -98,4 +67,4 @@ This project is open-source and available under the MIT License.
 
 ## Detailed Report
 
-For a comprehensive project report, including detailed descriptions of each phase and design decisions, please refer to [PROJECT_REPORT.md](./PROJECT_REPORT.md).
+For a comprehensive project report, including detailed descriptions of each phase and design decisions, please refer to [Extended Project Report](./assets/project_report.pdf).
