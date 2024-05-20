@@ -1,0 +1,132 @@
+body {
+  background-color: rgb(255, 237, 216);
+  background-image: url("Sudoku_trans.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.container {
+  width: 900px;
+  height: 900px;
+  background-color: rgba(34, 34, 34, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  margin: auto;
+  position: relative;
+}
+.refreshContainer {
+  position: absolute;
+  width: 260px;
+  height: 100px;
+  background-color: rgba(34, 34, 34, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  right: 50px;
+  top: 450px;
+  transform: translateY(-100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeContainer {
+  position: absolute;
+  width: 260px;
+  height: 100px;
+  background-color: rgba(34, 34, 34, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  left: 50px;
+  top: 450px;
+  transform: translateY(-100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  display: block;
+  padding: 15px 30px;
+  font-size: 24px;
+  background-color: #eabe6c;
+  color: rgba(34, 34, 34, 0.8);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "customRetroFont", sans-serif;
+}
+
+table {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%, -50%);
+  border-spacing: 0;
+  border: 4px solid rgba(0, 0, 0, 0.7);
+  border-collapse: collapse;
+  z-index: 1;
+}
+td {
+  border: 2px dotted rgba(0, 0, 0, 0.7);
+  padding: 0;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  font-size: 2em;
+  background-color: rgb(255, 237, 216);
+}
+
+td:hover {
+  background-color: #d37676;
+}
+
+#c0x2,
+#c0x5,
+#c1x2,
+#c1x5,
+#c2x5,
+#c3x2,
+#c3x5,
+#c4x2,
+#c4x5,
+#c5x2,
+#c5x5,
+#c6x2,
+#c6x5,
+#c7x2,
+#c7x5,
+#c8x2,
+#c8x5 {
+  border-right: 3px solid rgba(0, 0, 0, 0.7);
+}
+
+#c2x0,
+#c2x1,
+#c2x3,
+#c2x4,
+#c2x6,
+#c2x7,
+#c5x0,
+#c5x1,
+#c5x3,
+#c5x4,
+#c5x6,
+#c5x7 {
+  border-bottom: 3px solid rgba(0, 0, 0, 0.7);
+}
+
+#c2x2,
+#c2x5,
+#c2x8,
+#c5x2,
+#c5x5,
+#c5x8 {
+  border-bottom: 3px solid rgba(0, 0, 0, 0.7);
+  border-right: 3px solid rgba(0, 0, 0, 0.7);
+}
+@font-face {
+  font-family: "customRetroFont";
+  src: url("Sixtyfour-Regular-VariableFont_BLED,SCAN.ttf") format("truetype");
+}

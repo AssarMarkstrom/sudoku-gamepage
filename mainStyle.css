@@ -1,0 +1,162 @@
+body {
+  background-color: rgb(
+    255,
+    237,
+    216
+  ); 
+  background-image: url("Sudoku_trans.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; 
+}
+
+.container {
+  width: 1170px;
+  height: 780px;
+  margin: auto auto;
+  padding: 40px;
+  background-color: rgba(
+    34,
+    34,
+    34,
+    0.8
+  ); 
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  display: flex;
+}
+
+.left-container {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.right-container {
+  flex: 2;
+  padding-left: 40px;
+}
+
+header {
+  font-family: "customRetroFont", sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main {
+  margin-bottom: 40px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+#about {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 48px;
+  color: #eaeaea; 
+  margin-top: 100px;
+}
+
+h2 {
+  font-family: "customRetroFont", sans-serif;
+  font-size: 24px;
+  color: #eaeaea; 
+}
+
+strong {
+  font-family: "customRetroFont", sans-serif;
+  color: #eaeaea;
+}
+
+p {
+  font-family: monospace;
+  font-size: 16px;
+  color: #eaeaea; 
+}
+
+#retroP {
+  margin-top: 20px;
+  font-family: "customRetroFont", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  display: block;
+  margin: 20px auto 0;
+  padding: 15px 30px;
+  font-size: 24px;
+  background-color: #eabe6c; 
+  color: rgba(34, 34, 34, 0.8); 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "customRetroFont", sans-serif;
+}
+
+button:hover {
+  background-color: #d37676; 
+}
+.difficulty-selection {
+  margin-top: 20px;
+  display: flex; 
+  justify-content: center; 
+}
+
+.difficulty-btn {
+  font-size: 16px;
+  background-color: #000; 
+  color: #fff; 
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 0 10px; 
+}
+@keyframes flash {
+  0% {
+    box-shadow: 0 0 0px rgba(255, 255, 255, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 10px 5px #d37676;
+  }
+  100% {
+    box-shadow: 0 0 0px rgba(255, 255, 255, 0);
+  }
+}
+
+.flashing {
+  animation: flash 0.5s infinite;
+}
+
+.difficulty-btn.selected {
+  background-color: #eabe6c; 
+}
+
+.email-link {
+  color: #eabe6c; 
+  font-family: "customRetroFont", sans-serif;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  color: #d37676; 
+}
+
+#tips li::marker {
+  content: "•"; 
+  color: #eaeaea; 
+  position: absolute;
+  left: 0;
+}
+@font-face {
+  font-family: "customRetroFont"; 
+  src: url("Sixtyfour-Regular-VariableFont_BLED,SCAN.ttf") format("truetype");
+}

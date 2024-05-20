@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Game</title>
+    <link rel="stylesheet" href="mainStyle.css">
+</head>
+
+<body class="retro">
+
+    <div class="container">
+        <div class="left-container">
+            <div class="difficulty-selection">
+                <button id="easy-btn" class="difficulty-btn">Easy</button>
+                <button id="medium-btn" class="difficulty-btn">Medium</button>
+                <button id="hard-btn" class="difficulty-btn">Hard</button>
+                <button id="expert-btn" class="difficulty-btn">Expert</button>
+            </div>
+            <header>
+                <h1>Sudoku Game</h1>
+                <button id="start-btn">Start</button>
+            </header>
+            <section id="about">
+                <h2>About Me</h2>
+                <p> Hello and welcome to my Sudoku game website! Sudoku has been a part of my problem-solving journey
+                    since childhood. Now, as I delve into the world of programming, I've merged my passion for puzzles
+                    with my love for coding. I hope you enjoy playing Sudoku on my site and to embrace the challenge it
+                    offers.</p>
+                <p>If you have any questions, suggestions, or just want to say hello, feel free to reach out to me at:
+                <p><a href="mailto:assarmarkstrom@gmail.com" class="email-link">assarmarkstrom@gmail.com</a>. </p>
+                <p id="retroP">Happy Sudoku solving!</p>
+
+            </section>
+        </div>
+        <div class="right-container">
+            <main>
+                <section id="rules">
+                    <h2>Game Rules</h2>
+
+                    <p>Sudoku is a logic-based number placement puzzle. The objective is to fill a 9×9 grid with digits
+                        so that each column, each row, and each of the nine 3×3 subgrids that compose the grid (also
+                        called "boxes" or "blocks") contain all of the digits from 1 to 9. The puzzler provides a
+                        partially completed grid based on the chosen game difficulty.</p>
+                </section>
+
+                <section id="history">
+                    <h2>History</h2>
+                    <p>Sudoku puzzles originated in Switzerland in the 18th century. However, the modern version of
+                        Sudoku was designed by Howard Garns and first published in 1979 under the name "Number Place".
+                        It became popular in Japan in the 1980s and gained international popularity in the early 2000s.
+                    </p>
+                </section>
+
+                <section id="tips">
+                    <h2>Sudoku Tips</h2>
+                    <p>Sudoku can be both enjoyable and intimidating for beginners. Here are some tips to enhance your
+                        Sudoku skills:
+                    </p>
+                    <ul>
+                        <li>
+                            <p><strong>Tip 1:</strong> Identify rows, columns, or 3x3 sections with 5 or more numbers.
+                                Fill in empty cells with remaining numbers, considering existing placements for unique
+                                solutions.</p>
+                        </li>
+                        <li>
+                            <p><strong>Tip 2:</strong> Mentally divide the grid into 3 columns and 3 rows. Look for
+                                duplicate numbers in columns or grids to deduce missing numbers in the remaining
+                                section.</p>
+                        </li>
+                    </ul>
+                    <p>Now, armed with these tips, start solving some sudoku!</p>
+                </section>
+
+            </main>
+        </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+
+</html>
