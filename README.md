@@ -67,4 +67,4 @@ This project is open-source and available under the MIT License.
 
 ## Detailed Report
 
-For a comprehensive project report, including detailed descriptions of each phase and design decisions, please refer to [Extended Project Report](./assets/project_report.pdf).
+For a comprehensive project report, including detailed descriptions of each phase and design decisions, please refer to [Extended Project Report](./assets/beskrivning.pdf).
