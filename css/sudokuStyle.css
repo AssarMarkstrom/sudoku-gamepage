@@ -128,5 +128,6 @@ td:hover {
 }
 @font-face {
   font-family: "customRetroFont";
-  src: url("Sixtyfour-Regular-VariableFont_BLED,SCAN.ttf") format("truetype");
+  src: url("../assets/Sixtyfour-Regular-VariableFont_BLED\,SCAN.ttf")
+    format("truetype");
 }
